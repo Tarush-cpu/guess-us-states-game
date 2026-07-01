@@ -8,7 +8,7 @@ This is a geographic puzzle game where users type in the names of U.S. states to
 ### Built With
 * **Python 3**
 * **Turtle Graphics:** Used for rendering the map UI and writing text to the screen.
-* **Pandas:** Used for reading and extracting coordinates from the `50_states.csv` dataset.
+* **CSV Module:** Used for natively reading and extracting coordinates from the `50_states.csv` dataset.
 
 ## How to Run
 To run this game locally on your machine:
@@ -18,4 +18,4 @@ To run this game locally on your machine:
 4. Run `main.py` from your terminal.
 
 ## What I Learned
-Building this solidified my understanding of how to use Pandas to extract specific rows of data and how to manage screen states and coordinates using the Turtle library.
+Building this solidified my understanding of native file handling in Python using the `csv` module to parse tabular data, as well as how to manage screen states and coordinate mapping using the Turtle library.
